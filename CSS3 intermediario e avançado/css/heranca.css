@@ -1,0 +1,41 @@
+/*
+
+ * {
+	border: 1px solid blue;          seleciona tudo
+} 
+
+*/
+
+body {
+	color: green;				/*É herdado*/
+	border: 1px solid blue; /*Não é herdado*/
+	/*background: gray;		/*Não é herdado*/
+}
+
+/*Especificidade*/
+/*Se um seletor for mais específico que outro, a regra mais específica será aplicada 
+(tera precedência sobre regras mais gerais)*/
+
+#pagina p {
+	color: blue !important;
+}
+                              /* O ultimo que sera aplicado, a não ser se usarmos "!important" */
+#pagina p {
+	color: red;
+}
+
+* {
+	color: pink;  /*seleciona tudo, mas perde para mais específicos*/
+}
+
+h2 {   /*3 na ordem de especificidade*/
+	color: orange;
+}
+
+h2.verde {   /*2*/
+	color: green;
+}
+
+h2#amarelo {   /*1 (id é mais específico do que classe)*/
+	color: yellow;   
+}

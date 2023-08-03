@@ -1,0 +1,45 @@
+/*Seletor Universal ( seleciona tudo)*/
+*{
+	border: 1px solid red;
+}
+
+/*Seletor de texto*/
+h1{
+	color: gold;
+}
+
+/*Seletor de classe*/
+/** .verde{                       Seleciona qualquer elemento cujo  atributo class tem o valor “verde”
+
+	 color: green;
+}**/
+
+p.verde{   /*Seleciona somente elemento <p> cujo atributo class tem o valor “verde” */
+	color: green;
+}
+
+/*Seletor id*/
+#cabecalho{
+	border: 2px solid black;
+}
+
+/*Seletor de filhos (seleciona somente os filhos de alguem)*/
+li>a{
+	color: black;
+}
+
+/*Seletor de descendentes (todos os descendentes não so os filhos)*/
+li a {
+	color: gold;
+}
+
+/*Seletor de irmão adjacente*/
+h1 + p{ /*seleciona o primeiro elemento p depois de qualquer elemento h1 (mas não outros elementos p)*/
+	color: red;
+}
+
+/*Seletor de irmão geral*/
+h1 ~ p{ /*seleciona todos elementos p depois de qualquer elemento h1 (mas não outros elementos p)*/
+	color: pink;
+}
+

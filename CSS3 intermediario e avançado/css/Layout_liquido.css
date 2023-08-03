@@ -1,0 +1,68 @@
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container {
+	border: 1px solid red;
+	width: 85% /*720px*/;
+	margin: 0 auto;
+	background: #fff;
+	min-width: 720px;
+	/*max-width: 1280px;*/
+}
+
+#marca {
+	width: 100%; /*Nem precisaria colocar pois o padrao é a div ocupar 100% do espaço disponivel*/
+	height: 100px;
+	text-align: center;
+	background: #9e9e9e;
+	line-height: 100px;
+}
+
+#conteudo {
+	width: 75% /*520px -> 520/(520+180) = 75%*/;
+	float: right;
+}
+
+#conteudo-principal {
+	border: 1px solid red;
+	width: 63%;
+	float: left;
+}
+
+#conteudo-secundario {
+	border: 1px solid red;
+	float: right;
+	background: #d1d1d1;
+	width: 34%
+}
+
+#conteudo-secundario p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#navegação{
+	border: 1px solid red;
+	width: 23% /*180px -> 180/(520+180) = 25%*/;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #d1d1d1;
+}
+
+#navegação ul {
+	list-style: none;
+}
+
+#navegação li a{
+	text-decoration: none;
+}
+
+#rodape {
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}

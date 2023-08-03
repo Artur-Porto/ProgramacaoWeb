@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formatando links</title>
+
+	<!-- <link rel="stylesheet" type="text/css" href="estilo.css"> 
+
+		PARA FACILITAR VAMOS FAZER ESTILO INTERNO-->
+
+	<style type="text/css">
+		a{
+			padding: 5px 10px;
+			text-decoration: none;
+		}
+		
+		/*Links Não Visitados*/
+		a:link{           /*Caso queiramos deixar os link visitados e não visitados com a mesma com, usamos "a:link, a:visited{}" */
+			color: #b9c941;
+		}
+
+		/*Links Visitados*/
+		a:visited{
+			color: #c0c0c0;
+		}
+
+		/*Links Hover, passa o cursor sobre o link*/
+		a:hover{
+			color: #fff;
+			background: #6d790f;
+		}
+
+		/*Links Ativos, quando clicados*/
+		a:active{
+			color: #e4f371;
+		}
+
+	</style>
+</head>
+<body>
+	<a href="https://www.google.com.br"> Google </a> |
+	<a href="https://www.tecmundo.com.br"> Tec Mundo </a> |
+	<a href="https://www.megacurioso.com.br"> Mega curioso </a>
+</body>
+</html>

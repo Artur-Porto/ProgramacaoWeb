@@ -1,0 +1,32 @@
+.conteudo{
+	border: 1px solid red;
+	/*padding-top: 20px; 
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;*/
+
+	/*os paddings aumentam os espaços dentro da caixa
+
+	padding:20px 15px 10px 5px ; (top,right,bottom,left) 
+
+	padding: 20px 5px; (20 top e bottom e 5 right e left) */
+
+	padding: 20px; /*( aplica nos 4 lados) */
+
+	width: 150px; /* Aumenta o comprimento */
+
+	/*ESPAÇAMENTO EXTERNO: MARGIN, mesma logica do padding mas agora fora da borda*/
+
+	/*margin-top:20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;*/
+
+	/*margin:20px 15px 10px 5px ; (top,right,bottom,left) 
+
+	margin: 20px 5px; (20 top e bottom e 5 right e left) */
+
+	margin: 20px; /*( aplica nos 4 lados) */
+
+	/*Os margins bottom do coteudo 1 e top do conteudo 2 se sobrepoem, fazendo com qu a distancia entre eles seja o maior valor de Margin*/
+}
